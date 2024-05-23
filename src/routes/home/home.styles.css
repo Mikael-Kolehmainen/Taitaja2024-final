@@ -1,0 +1,27 @@
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 95%;
+  margin: 20px auto;
+}
+
+.page-selector {
+  display: flex;
+  width: fit-content;
+  margin: 15px auto;
+}
+
+.page-selector p {
+  width: 40px;
+  text-align: center;
+  height: fit-content;
+  margin: auto;
+  color: var(--primaryColor);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

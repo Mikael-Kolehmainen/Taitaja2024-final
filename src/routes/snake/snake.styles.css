@@ -1,0 +1,26 @@
+.game-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 500px;
+  width: 500px;
+  margin: auto;
+}
+
+canvas {
+  border: 1px solid var(--miscColor);
+}
+
+.question {
+  margin-top: 20px;
+}
+
+.choices {
+  display: flex;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.snake-scores {
+  margin-top: 20px;
+}

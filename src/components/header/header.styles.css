@@ -1,0 +1,20 @@
+header {
+  background-color: var(--primaryColor);
+  padding: 16px 3%;
+  display: flex;
+  align-items: center;
+}
+
+header .btn {
+  margin-left: auto;
+}
+
+header img {
+  width: 120px;
+}
+
+@media (max-width: 500px) {
+  header {
+    padding: 16px 5%;
+  }
+}

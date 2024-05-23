@@ -1,0 +1,27 @@
+section {
+  width: 95%;
+  margin: 20px auto;
+}
+
+.admin-table {
+  margin-bottom: 10px;
+}
+
+h3 {
+  margin: 10px 0 5px 5px;
+}
+
+.configuration {
+  display: flex;
+  gap: 10px;
+  margin-left: 20px;
+}
+
+.success {
+  color: green;
+}
+
+.flex {
+  display: flex;
+  gap: 10px;
+}

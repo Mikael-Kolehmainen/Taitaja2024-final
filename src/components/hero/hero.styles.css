@@ -1,0 +1,26 @@
+.hero {
+  background-image: url(./../../../public/media/hero.webp);
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+  position: relative;
+}
+
+.hero h1 {
+  color: var(--primaryFontColor);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+@media (max-width: 375px) {
+  .hero h1 {
+    top: 40%;
+  }
+}

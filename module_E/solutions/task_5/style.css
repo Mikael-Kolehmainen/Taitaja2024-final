@@ -1,0 +1,55 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+.tic-tac-toe {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+  gap: 5px;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+  border: 2px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  position: relative;
+}
+
+.cell:hover {
+  background-color: #ccc;
+}
+
+.cell.x::before,
+.cell.o::before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.cell.x::before {
+  content: "X";
+  color: red;
+}
+
+.cell.o::before {
+  content: "O";
+  color: blue;
+}

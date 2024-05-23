@@ -1,0 +1,46 @@
+.game-view-container {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  margin: auto;
+  align-items: center;
+  margin-top: 30px;
+  gap: 30px;
+}
+
+.game-view-container img {
+  max-width: 100%;
+  max-height: 800px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table tr td {
+  padding: 2px;
+  border: 1px solid var(--miscColor);
+}
+
+table thead {
+  font-weight: bold;
+}
+
+table tr.first {
+  background-color: #ffd700;
+}
+
+table tr.second {
+  background-color: #c0c0c0;
+}
+
+table tr.third {
+  background-color: #cd7f32;
+}
+
+.go-back {
+  margin: 20px 0 0 20px;
+  display: block;
+  width: fit-content;
+}

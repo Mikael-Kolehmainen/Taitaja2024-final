@@ -1,0 +1,34 @@
+.card-container {
+  width: 44%;
+  border: 1px solid var(--miscColor);
+  border-radius: 5px;
+  padding: 2%;
+  display: flex;
+  gap: 10px;
+}
+
+.card-container img {
+  width: 50%;
+}
+
+.card-container .right {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-container .btn {
+  margin: auto 0 0 auto;
+}
+
+.card-container a {
+  font-family: subtitle;
+  text-decoration: none;
+  font-size: 29px;
+  color: var(--primaryColor);
+}
+
+@media (max-width: 750px) {
+  .card-container {
+    width: 96%;
+  }
+}

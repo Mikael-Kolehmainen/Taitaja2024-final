@@ -1,0 +1,98 @@
+/*
+  This is the index.css file, in here we have defined some general css rules that
+  should apply for the entire application.
+*/
+
+@font-face {
+  font-family: title;
+  src: url(./../public/fonts/Kanit-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: subtitle;
+  src: url(./../public/fonts/Kanit-Medium.ttf);
+}
+
+@font-face {
+  font-family: regular;
+  src: url(./../public/fonts/Kanit-Regular.ttf);
+}
+
+h1 {
+  font-size: 35px;
+  font-family: title;
+}
+
+h2 {
+  font-size: 29px;
+  font-family: subtitle;
+  font-weight: normal;
+}
+
+p,
+table {
+  font-size: 17px;
+}
+
+a {
+  font-size: 17px;
+  text-decoration: none;
+  color: var(--primaryColor);
+}
+
+* {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+  font-family: regular;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: var(--primaryFontColor);
+  overflow: auto;
+}
+
+.btn,
+button {
+  display: block;
+  background-color: var(--primaryColor);
+  border: 1px solid var(--extraColor3);
+  color: var(--extraColor3);
+  border-radius: 5px;
+  width: fit-content;
+  height: fit-content;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+
+.btn:hover,
+button:hover {
+  color: var(--primaryColor);
+  background-color: var(--extraColor3);
+  cursor: pointer;
+}
+
+.search-container {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.search-bar {
+  display: block;
+  font-size: 17px;
+  padding: 5px;
+  border: 1px solid var(--miscColor);
+  border-radius: 5px;
+  width: 50%;
+  margin: auto;
+}
+
+@media (max-width: 500px) {
+  .search-bar {
+    width: 80%;
+  }
+}

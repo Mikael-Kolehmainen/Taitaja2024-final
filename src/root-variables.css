@@ -1,0 +1,13 @@
+/*
+  Here I define the colors, default font sizes, etc. for the application.
+  Which are then accessed in css files with the var() function.
+*/
+
+:root {
+  --primaryColor: #304bff;
+  --extraColor1: #9900ff;
+  --extraColor2: #00ffcc;
+  --extraColor3: #f3f3f3;
+  --primaryFontColor: #fff;
+  --miscColor: #000;
+}
